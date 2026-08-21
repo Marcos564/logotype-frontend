@@ -1,7 +1,5 @@
 # Logotype — Frontend React
 
-Evolución en React del sitio institucional de **Logotype**, sumando navegación fluida, animaciones con Framer Motion y un **configurador de proyectos multi-step**.
-
 ## 🚀 Cómo ejecutar el proyecto
 
 Sigue estos pasos para instalar y correr el proyecto en tu entorno local. 
