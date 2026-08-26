@@ -302,7 +302,12 @@ header .container {
 .company-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
   gap: 25px;
+}
+
+.company-grid > * {
+  height: 100%;
 }
 
 .info-card {
@@ -311,6 +316,10 @@ header .container {
   border-radius: var(--radius-lg);
   border: 1px solid #e5e7eb;
   box-shadow: var(--shadow-soft);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
 .info-card h3 {
@@ -330,7 +339,12 @@ header .container {
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
   gap: 25px;
+}
+
+.cards > * {
+  height: 100%;
 }
 
 .card {
@@ -339,6 +353,10 @@ header .container {
   border-radius: var(--radius-lg);
   border: 1px solid var(--blue-pale-2);
   transition: 0.3s;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
 .card:hover {
@@ -414,7 +432,12 @@ header .container {
 .problem-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 1fr;
   gap: 30px;
+}
+
+.problem-grid > * {
+  height: 100%;
 }
 
 .problem-box {
@@ -422,6 +445,10 @@ header .container {
   border-radius: var(--radius-lg);
   background: var(--bg-panel);
   border: 1px solid var(--bg-border-panel);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
 .problem-box h3 {
